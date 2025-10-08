@@ -85,7 +85,7 @@ Below are the command lines to run the models:
     ```
 
 Here is the command line to visualize the histogram (**Figure 6**) and other parameters.
-<br> It needs the output from a training, the data that you want to project in the latent space and the optimal TIs.
+<br> It needs the output from a training, the data that you want to project in the latent space and the file with optimal TIs.
 
 - **Visualization:**
 
