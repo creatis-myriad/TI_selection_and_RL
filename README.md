@@ -17,9 +17,9 @@
 
 ## Create the Conda environment
 - Create a conda environment from the provided file:
-    - conda env create -f environment.yml
+    - conda env create -f environment.yaml
 - Activate it:
-    - conda activate cLDM_env
+    - conda activate TI_RL_env
 
 
 ## Data preparation
@@ -41,7 +41,8 @@ Below is the command line to get the optimal TI from the dicom files of a patien
     ```
 
 - **Visualize optimal TI**
-The **Figure 2** from the article was made from the command line below.
+
+<br> The Figure 2 from the article was made from the command line below.
 
     ```bash
     python visu_TIopt.py \
