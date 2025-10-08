@@ -1,7 +1,7 @@
 # Comparison of synthetic LGE with optimal inversion time vs. conventional LGE via representation learning: Quantification of Bias in Population Analysis
 
 
-![Pipeline overview](./figures/pipeline.png "Figure 1.")
+![Pipeline overview](./figures/pipeline.png "Figure 2.")
 
 
 
@@ -41,8 +41,7 @@ Below is the command line to get the optimal TI from the dicom files of a patien
     ```
 
 - **Visualize optimal TI**
-
-<br> The Figure 2 from the article was made from the command line below.
+<br> The **Figure 1** from the article was made with the command line below.
 
     ```bash
     python visu_TIopt.py \
@@ -51,7 +50,7 @@ Below is the command line to get the optimal TI from the dicom files of a patien
         --load_LGE_file '/your/input/file'
     ```
 
-![Pipeline overview](./figures/fig_loss_TI.png "Figure 2.")
+![Pipeline overview](./figures/fig_loss_TI.png "Figure 1.")
 
 
 ## How to run the models
@@ -85,8 +84,9 @@ Below are the command lines to run the models:
         --split_data 0.15
     ```
 
-Here is the command line to visualize the histogram (**Figure 3**) and other parameters.
-It needs the output from a training, the data that you want to project in the latent space and the optimal TIs.
+Here is the command line to visualize the histogram (**Figure 6**) and other parameters.
+<br> It needs the output from a training, the data that you want to project in the latent space and the optimal TIs.
+
 - **Visualization:**
 
     ```bash
@@ -101,6 +101,6 @@ It needs the output from a training, the data that you want to project in the la
         --fMAG 1 
     ```
 
-![Pipeline overview](./figures/delta_TIs.png "Figure 3.")
+![Pipeline overview](./figures/delta_TIs.png "Figure 6.")
 
 
